@@ -1,0 +1,14 @@
+
+<h3>Tow Way Data Binding!</h3>
+
+
+ Enter Name: <input  type="text" [value]="data" (input)="data=$event.target.value"> <br>
+
+ Output Name: {{data}} <br>
+
+ <hr>
+
+ 
+ Enter Name: <input  type="text" [(ngModel)]="data1"> <br>
+
+ Output Name: {{data1}} <br>
