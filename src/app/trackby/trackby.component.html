@@ -11,7 +11,7 @@
 <ng-container *ngFor="let row of data; TrackBy:trackbyid">
     <tr>
         <td>{{row.id}}</td>
-        <td>{{row.name}}</td>
+        <td  [ngStyle]="{'background-color':'#CCC'}">{{row.name}}</td>
         <td>{{row.email}}</td> 
     </tr>
 </ng-container>
