@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { TrackbyComponent } from './trackby/trackby.component';
+import { VisionComponent } from './vision/vision.component';
+import { ValueComponent } from './value/value.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutusComponent,
-    TrackbyComponent
+    TrackbyComponent,
+    VisionComponent,
+    ValueComponent
   ],
   imports: [
     BrowserModule, RouteModule, FormsModule

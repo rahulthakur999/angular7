@@ -3,15 +3,7 @@ import {UserService} from '../services/user.service'
 
 @Component({
   selector: 'app-aboutus',
-  template: ` 
-  <h2>Calling data from UserService</h2>
-  
-<ul>
-<li *ngFor="let user of users">{{user.name}}</li>
-</ul>
-
-<button (click)="showcount()">Show Count {{count}}</button>
-  `,
+  templateUrl:'./aboutus.component.html',
   styleUrls: ['./aboutus.component.css'],
   providers:[UserService]
 })
